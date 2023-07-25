@@ -1,0 +1,88 @@
+/* Write your code here. */
+
+.Gallery-Con {
+  min-height: 100vh;
+  max-width: 1110px;
+  background-color: White;
+  background-size: cover;
+  display: flex;
+
+  justify-content: center;
+}
+.gallery-img {
+  width: 100%;
+  height: 40%;
+}
+.unorder-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.images-change-con {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+}
+.heading {
+  font-size: 15px;
+  text-align: left;
+  color: #1e293b;
+}
+.paragraph {
+  font-size: 10px;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .Gallery-Con {
+    min-height: 100vh;
+
+    background-color: White;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .gallery-img {
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+  }
+  .heading {
+    font-size: 25px;
+    color: #1e293b;
+  }
+  .paragraph {
+    font-size: 15px;
+    color: #64748b;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .Gallery-Con {
+    min-height: 100vh;
+
+    background-color: White;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .gallery-img {
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+  }
+  .heading {
+    font-size: 25px;
+    color: #1e293b;
+  }
+  .paragraph {
+    font-size: 15px;
+    color: #64748b;
+  }
+}

@@ -1,0 +1,34 @@
+/* Write your code here. */
+
+.list-images {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.buttonImage {
+  border: none;
+  background-color: White;
+  outline: none;
+  cursor: pointer;
+}
+
+.normal {
+  opacity: initial;
+
+  width: 30px;
+}
+.imageBackColor {
+  opacity: 0.5;
+
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .normal {
+    opacity: initial;
+    width: 100%;
+  }
+  .imageBackColor {
+    opacity: 0.5;
+    width: 100%;
+  }
+}
